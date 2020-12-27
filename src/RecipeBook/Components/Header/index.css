@@ -1,0 +1,69 @@
+.sticky {
+  position: absolute;
+  top: 0;
+}
+
+.headerWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  height: 50px;
+  z-index: 2;
+  width: 100%;
+}
+
+.navElement {
+  padding: 0 1rem;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  list-style-type: none;
+  text-align: center;
+}
+
+.navElement a {
+  color: black;
+  text-decoration: none;
+}
+
+.logo a{
+  padding-left: 1rem;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+  text-shadow: 0 0 5px #800000, 0 0 10px #006400;
+  margin-right: 5rem;
+  color: black;
+  text-decoration: none;
+}
+
+.navBar {
+  display: flex;
+}
+
+.searchBarWrapper {
+  width: 25rem;
+  height: 2rem;
+  position: relative;
+}
+
+.searchBarWrapper input {
+  width: 100%;
+  height: 100%;
+  padding: 0 0.5rem;
+  border: 0;
+  border-radius: 1rem;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.searchBarWrapper input:focus {
+  outline: none;
+}
+
+.searchIcon {
+  width: 25px;
+  position: absolute;
+  right: 0;
+  top: 3px;
+}

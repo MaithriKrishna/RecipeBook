@@ -1,0 +1,22 @@
+.recipeFormWrapper {}
+
+h1 {
+  text-align: center;
+}
+
+form{
+    text-align: center;
+    font-size: 18px;
+}
+
+form label{
+    display: block;
+}
+
+form .title{
+    width: 50%;
+}
+
+form .description{
+    width: 50%;
+}
